@@ -1,0 +1,19 @@
+[project]
+name = "cses"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aditya Prasad", email = "aditya.prasad@kiwiinsurance.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+cses = "cses:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
